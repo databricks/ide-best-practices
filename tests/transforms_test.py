@@ -38,7 +38,7 @@ def test_filter(raw_input_df):
     assert filtered.iso_code.drop_duplicates()[0] == "USA"
 
 
-# The test data has NaNs for Daily ICU occupancy; this should get filled to 0.
+# The test data has NaNs for Daily ICU occupancy; this should get filled to zero.
 def test_pivot(raw_input_df):
     pivoted = pivot_and_clean(raw_input_df, 0)
     assert pivoted["Daily ICU occupancy"][0] == 0
