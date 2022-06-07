@@ -5,7 +5,7 @@ on:
     branches:
       - '**'
     tags-ignore:
-      - 'v*' # this tag type is used for release pipelines
+      - 'v*' # this tag type is used for release pipelines.
 
 jobs:
   ci-pipeline:
