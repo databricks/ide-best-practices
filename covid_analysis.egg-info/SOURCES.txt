@@ -1,0 +1,10 @@
+LICENSE
+NOTICE.txt
+README.md
+setup.py
+covid_analysis/__init__.py
+covid_analysis/transforms.py
+covid_analysis.egg-info/PKG-INFO
+covid_analysis.egg-info/SOURCES.txt
+covid_analysis.egg-info/dependency_links.txt
+covid_analysis.egg-info/top_level.txt
