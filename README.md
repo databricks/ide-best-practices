@@ -19,3 +19,4 @@ Going through the example, you will use your IDE to:
 The only time you need to use the Databricks user interface for this example is to see the results of writing the data to your Databricks workspace. (And even then, you can use the Databricks Jobs REST API or the Databricks Jobs CLI for [AWS](https://docs.databricks.com/data-engineering/jobs/jobs.html), [Azure](https://docs.microsoft.com/azure/databricks/data-engineering/jobs/jobs), or [GCP](https://docs.gcp.databricks.com/data-engineering/jobs/jobs.html) to get some high-level information about those data writes programmatically.) Otherwise, you can complete all of these development tasks from within your favorite Python-compatible IDE.
 
 The example is hands-on. We recommend working through the example article to learn how to apply these techniques to your own Databricks development tasks from within your favorite Python-compatible IDE.
+
