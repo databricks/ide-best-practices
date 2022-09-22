@@ -4,6 +4,16 @@
             "profile": "DEFAULT",
             "workspace_dir": "/Shared/dbx/projects/dbx-getting-started",
             "artifact_location": "dbfs:/dbx/dbx-getting-started"
+        },
+        "e2-demo-field-eng": {
+            "profile": "e2-demo-field-eng",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/projects/ide-best-practices",
+                "artifact_location": "dbfs:/dbx/ide-best-practices"
+            }
         }
-    }
+    },
+    "inplace_jinja_support": false,
+    "failsafe_cluster_reuse_with_assets": false
 }

@@ -1,5 +1,5 @@
 environments:
-  default:
+  e2-demo-field-eng:
     strict_path_adjustment_policy: true
     jobs:
       - name: "covid_analysis_etl_integ"
