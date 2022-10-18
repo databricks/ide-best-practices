@@ -1,4 +1,4 @@
--r requirements.txt
+pip-r requirements.txt
 setuptools
 wheel
 dbx
