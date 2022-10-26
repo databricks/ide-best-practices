@@ -9,7 +9,7 @@ from pyspark.sql import SparkSession
 from covid_analysis.transforms import *
 
 # tell Python the type of the spark global so code completion works
-spark: SparkSession = spark
+spark: SparkSession = spark # type: ignore
 
 # check if job is running in production mode
 is_prod = len(sys.argv) >= 2 and sys.argv[1] == "--prod"
