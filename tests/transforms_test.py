@@ -1,11 +1,7 @@
 # Test each of the transform functions.
 import pytest
-from textwrap import fill
-import os
 import pandas as pd
-import numpy as np
 from covid_analysis.transforms import *
-from pyspark.sql import SparkSession
 
 
 @pytest.fixture
@@ -30,7 +26,7 @@ def colnames_df() -> pd.DataFrame:
         ],
     )
     return df
-  
+
 
 # Make sure the filter works as expected.
 def test_filter(raw_input_df):
