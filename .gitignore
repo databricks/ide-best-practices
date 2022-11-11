@@ -1,0 +1,8 @@
+.databricks/
+.venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+dist/
+build/
+covid_analysis.egg-info/
