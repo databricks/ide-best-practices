@@ -1,8 +1,8 @@
 .databricks/
 .venv/
+.pytest_cache/
 *.pyc
 __pycache__/
-.pytest_cache/
 dist/
 build/
 covid_analysis.egg-info/
